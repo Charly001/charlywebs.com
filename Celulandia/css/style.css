@@ -1,0 +1,24 @@
+#testimonial .col{
+    background-color: #f1f1f1;
+    padding: 2rem 5rem 1.5rem 5rem;
+    margin-top:2rem;
+
+}
+
+#header{
+    margin-top: 4.5rem;   
+}
+
+#info2{
+    background-color: #f1f1f1;
+}
+
+footer{
+
+    background: url("../img/img4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 1rem;
+    margin-bottom:1rem;
+    
+}

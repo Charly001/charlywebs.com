@@ -1,0 +1,357 @@
+body{
+    background-color: #e9e3e8;
+    font-family: ABeeZee, "Open Sans", sans-serif;
+}
+
+
+header{ margin-top:2rem;}
+
+header .nav{
+    min-height: 80px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 40px;
+}
+
+header .header h2{
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    text-align: center;
+    color:#005385;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+header .header p{
+    color:#777777;
+    text-align:center;
+    margin:0;
+    font-size: 20px;
+    margin-top:5px;
+
+}
+
+header .header p span{
+    color:#005385;
+}
+
+header .header .icon{
+     color:#bfbfbf;
+}
+
+
+/* ----------------------------------------------------Menu */
+header .menu{
+    padding:0
+}
+
+header .menu a{
+    display: block;
+    padding: 0 30px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.8s;
+
+}
+header .menu a:hover{
+    font-size: 22px;
+    padding:0 50px;
+}
+
+
+header .menu a div span{
+    font-weight: 600;
+}
+
+header .menu .color1{background:#3da5e2;}
+header .menu .color2{background:#005385;}
+header .menu .color3{background:#003855;}
+
+header .menu .color1:hover{background:#1ba0ef;}
+header .menu .color2:hover{background:#00426a;}
+header .menu .color3:hover{background:#002d44;}
+
+/* -----------------------------------------------------------------------Gallery */
+.portfolio{
+    background:#fff;
+    border-top: 5px solid #005385;
+    border-bottom: 5px solid #005385;
+    border-radius: 40px;
+    padding: 0 20px;
+  }
+
+  .gallery-title{
+    text-align: center;
+    color:#005385;
+    padding:20px 0;
+    font-size: 80px;
+    letter-spacing: 0.6rem;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .portfolio .gallery .container-img{
+    margin:15px 0;
+    max-height: auto;
+    overflow: hidden;
+    padding:15px;
+    transition: 0.5s;
+  }
+
+  .portfolio .gallery .container-img:hover{
+    padding: 12px;
+
+  }
+
+  .portfolio .gallery .container-img img:hover{
+    opacity: 0.7;
+  }
+
+  .portfolio .gallery .container-img a{
+    background-image: linear-gradient(to right, rgb(225, 225, 228), rgb(4, 20, 34));
+    display: inline-block;
+  }
+
+  .portfolio .gallery .container-img .img-title{
+      text-align: center;
+      color:#545454;
+
+  }
+
+
+
+  /* ----------------------------------------------------------------About */
+  .about{
+      padding:30px;
+      margin-bottom: 40px;
+
+  }
+
+  .about .about-me{
+    font-size: 1.2rem;
+    font-family: ABeeZee;
+    color: #545454;
+  }
+
+  .about .about-img{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .about .about-img .about-name{
+      color: #545454;
+      font-weight: 300;
+      font-size: 18px;
+  }
+
+  .about .title{
+      color: #005385;
+  }
+
+  .about .progress-title img{
+      margin: 2px 0px;
+  }
+
+  .about .progress-title span{
+      color: #545454;
+      font-size:18px;
+      letter-spacing: 1px;
+      margin-left: 6px ;
+  }
+  .about .progress-title{
+      margin: 5px 0;
+  }
+
+  .about .progress{
+      height: 30px;
+      /* border: 1px solid rgb(92, 88, 88); */
+      background: rgb(151, 145, 145);
+
+  }
+  .about .progress-bar{
+      text-align: left;
+      padding-left: 50px;
+      font-size: 18px;
+  }
+
+  /* ------------------------------------------------------Contact */
+
+  .contact{
+      padding: 40px 0;
+      border-top: 1px solid #cbcbcb;
+      border-bottom: 1px solid #cbcbcb;
+      margin-bottom: 30px;
+  }
+
+  .contact .title{
+      font-family: 'Open Sans', sans-serif;
+      font-size: 40px;
+      font-weight: 300px;
+      margin-bottom: 30px;
+      text-align: center;
+      color: #005385;
+  }
+
+  .formulary input[type="text"],
+  .formulary input[type="email"],
+  .formulary textarea{
+      padding: 15px;
+      width:100%;
+      margin-bottom: 30px;
+      border:none;
+      transition: 1s;
+  }
+
+  .formulary input[type="text"]:hover,
+  .formulary input[type="email"]:hover{
+    transform:rotate(-5deg);
+
+  }
+
+  .formulary textarea{
+    min-height: 150px;
+    max-height: 250px;
+  }
+
+  .formulary textarea:hover{
+    transform:scale(1.2);
+  }
+
+  .formulary input[type="submit"]{
+      background: #005385;
+      padding:7px 30px;
+      color:white;
+      border:none;
+      border-radius: 3px;
+  }
+
+  .formulary input[type="submit"]:hover{
+      background:white;
+      color:#005385;
+  }
+
+  /* --------------------------------------------------------------------------Footer */
+
+  .footer{
+      padding:40px;
+      margin-bottom: 40px;
+  }
+
+  .footer .icon{
+      width:100px;
+      height: 100px;
+      font-size: 40px;
+      line-height: 100px;
+      display: inline-block;
+      text-align:center;
+      text-decoration: none;
+      border-radius: 100px;
+      transition: 1s;
+  }
+
+  .footer .icon:hover{  transform:rotate(360deg);}
+
+  .footer .facebook{
+    color:white;
+     background: #3b5998;
+     font-size: 60px;
+  }
+
+
+  .footer .github{
+        color:white;
+        background:rgb(53, 52, 52);
+        font-size: 60px;
+  }
+
+
+  .footer .linkedin{
+        color:white;
+        background:#0d80c2;
+        font-size: 60px;
+  }
+
+  .error{
+    background:white;
+    background-color: rgb(249, 216, 217);
+    font-size: 18px;
+    border: 1px solid red;
+    text-align: justify;
+  }
+
+  .error p{
+    color:red;
+    margin:0.5rem;
+  }
+
+  .success{
+    background:white;
+    background-color: rgb(215, 249, 215);
+    font-size: 18px;
+    border: 1px solid green;
+    text-align: justify;
+  }
+
+  .success p{
+    color:green;
+    margin:0.5rem 0 0.5rem 0.5rem;
+  }
+
+/* ------------------------------------------------------------------------Media Queries */
+
+/* xl */
+@media screen and (max-width:1199px){}
+
+/* lg */
+@media screen and (max-width:991px){
+    .header{
+        min-height: 70px;
+    }
+
+    .menu{
+        min-height: 100%;
+    }
+
+    .menu a{
+        width: 100%;
+    }
+
+    .menu a div{
+        width: 100%;
+    }
+
+    .portfolio .gallery .container-img:nth-child(1){order: 1;}
+    .portfolio .gallery .container-img:nth-child(2){order: 4;}
+    .portfolio .gallery .container-img:nth-child(3){order: 5;}
+    .portfolio .gallery .container-img:nth-child(4){order: 3;}
+    .portfolio .gallery .container-img:nth-child(5){order: 2;}
+
+
+}
+
+/* md */
+@media screen and (max-width:767px){}
+
+/* sm */
+@media screen and (max-width:575px){
+
+  header{
+    margin-top:0;
+  }
+
+  .gallery-title{
+    font-weight: 250px;
+    font-size: 40px;
+  }
+
+  .about .title{
+    text-align: center;
+  }
+
+  .formulary textarea:hover{
+    transform:scale(1.0);
+  }
+
+  header .nav{
+    border-radius:0;
+  }
+}

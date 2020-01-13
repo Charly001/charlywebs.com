@@ -1,0 +1,108 @@
+body{
+    background-color: #FDF1DA;
+    font-family: 'Patrick Hand', cursive;
+    padding-top:55px;
+}
+
+nav{
+    font-family: 'Roboto', sans-serif;
+    border-bottom:1px solid white;
+    background-color:#332212;
+    
+}
+
+.body1{
+    background-color: #FDF1DA;
+    color: rgb(139, 134, 134);   
+}
+
+.body1 .col-6 p{
+    padding: 1rem;
+}
+
+.body1 .col-6{
+    border-bottom: 2px dashed rgb(112, 106, 106);
+    border-right: 2px dashed rgb(112, 106, 106);
+    background-color:white;
+    
+}
+
+.btn-dark{
+    background-color:#332212;
+}
+
+.body2{
+    /*background-color:#343a40;*/
+    background-color: white;
+}
+
+#body2Title{
+    background-color: #ECC996; 
+    text-align: center;
+    border: 1px dashed white;
+    border-bottom: hidden;
+    
+}
+
+#body2Title h2{
+    color: white;
+    font-size: 40px;
+    font-family: 'Armata', 'Patua One', Varela, sans-serif;
+    border-bottom: 10px solid white;
+    border-radius: 15px;
+    margin: 2rem 0px;
+}
+
+.card-footer{
+    background-color: #ECC996;
+    font-size: 120%;
+    
+}
+
+.card-body{
+    color:#755C38;
+    font-size: 120%;
+}
+
+.footer{
+
+    margin-top: 2rem;
+    padding:1rem;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #30210c; */
+    background-color:#332212;
+    color:white;
+}
+
+.footer img{
+    margin: 3px 1rem;
+}
+
+.contacto h1{
+    color:#ECC996;
+    font-size: 50px;
+    
+}
+
+ li{
+    list-style-type: none;
+    
+}
+    
+ li a{
+    
+    text-decoration: none;
+ 
+}
+
+.btn{
+    margin-right:0.7rem;
+    padding-left:0;
+    padding-right:0;   
+    color:white;
+}
+
+.btn:hover{   
+    color: #ECC996;
+}
+
