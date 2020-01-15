@@ -59,11 +59,11 @@
 
         <!-- ABOUT -->
         <div id="about" class="row about align-items-center">
-          <div class="col-4 about-img"> <!-- Image -->
+          <div class="col-12 col-4-md about-img"> <!-- Image -->
             <img class="img-fluid rounded-circle" src="img/fotoVieja2.png" alt="Image not found =(">
 
           </div>
-          <div class="col-8 about-me"> <!-- Description -->
+          <div class="col-12 col-8-md about-me"> <!-- Description -->
             <h2 class="title">Un poco sobre mí</h2>
             <p>Soy un Programador Jr (o algo parecido) autodidacta con gran afición por la informática.
               Inicié mi aprendizaje en programación, hace poco mas de 2 años, principalmente debido a la
@@ -238,6 +238,7 @@
                                          });
     </script>
     <script>
+    //Saving current scroll position
       window.onload=function(){
         var pos=window.name || 0;
         window.scrollTo(0,pos);
