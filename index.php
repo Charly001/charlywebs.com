@@ -175,7 +175,7 @@
 
               <!-- PHP start -->
 
-              <?php /*include 'validate.php';*/
+              <?php
                if(!empty($error)):
                   ?>
                 <div class="error">
