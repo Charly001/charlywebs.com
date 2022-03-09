@@ -1,6 +1,6 @@
 
 <?php   error_reporting(E_ALL ^ E_NOTICE); ?>
-<?php   include 'mail.php'; ?>
+<?php   include 'mailConfirmation.php'; ?>
 <!DOCTYPE html>
 
 
@@ -24,7 +24,7 @@
         <div class="nav row align-items-strech justify-content-between">
           <div class="col header">
             <h2>Bernay Carlos</h2>
-            <p>Programador <span>Web</span> Jr</p>
+            <p>Programador <span>Jr</span></p>
           </div>
 
           <!-- Icons -->
@@ -66,12 +66,12 @@
           <div class="col-12 col-8-md about-me"> <!-- Description -->
             <h2 class="title">Un poco sobre mí</h2>
             <p>Soy un Programador Jr (o algo parecido) autodidacta con gran afición por la informática.
-              Inicié mi aprendizaje en programación, hace poco mas de 2 años, principalmente debido a la
+              Inicié mi aprendizaje en programación, hace 4 años, principalmente debido a la
               intriga de como se lograba crear programas a partir de escribir codigo en una computadora.
-               Actualmente me oriento al aprendizaje de diversas tecnologias asociadas al desarrollo web.</p>
+              Actualmente me oriento al aprendizaje de diversas tecnologias asociadas al desarrollo.</p>
             <p></p>
-            <p>Suelo actualizar mi apartado en Github con algún que otro proyecto que me resulte interesante.
-               Si tenés en mente alguna idea sobre realizar un <span>proyecto o sitio web</span> no dudes en
+            <p>Mas abajo se encuentran las tecnologías con los que ya tengo experiencia.
+               Si tenés en mente alguna idea sobre algún <span>proyecto</span> no dudes en
                contactarme mediante el formulario al final la página</p>
           </div>
             <div class="col-12 mt-4">
@@ -117,7 +117,7 @@
               <span>C#</span>
             </div>
             <div id="sr-bars" class="progress">
-              <div class="progress-bar bg-dark progress-bar-striped" role="progressbar" style="width:50%">50%</div>
+              <div class="progress-bar bg-dark progress-bar-striped" role="progressbar" style="width:40%">40%</div>
             </div>
 
             <div id="sr-icons" class="progress-title d-flex align-items-end">
@@ -125,7 +125,7 @@
               <span>MySQL</span>
             </div>
             <div id="sr-bars" class="progress">
-              <div class="progress-bar bg-info progress-bar-striped" role="progressbar" style="width:50%">50%</div>
+              <div class="progress-bar bg-info progress-bar-striped" role="progressbar" style="width:40%">40%</div>
             </div>
           </div>
 
