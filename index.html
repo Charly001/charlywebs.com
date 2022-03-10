@@ -1,6 +1,5 @@
 
-<?php   error_reporting(E_ALL ^ E_NOTICE); ?>
-<?php   include 'mailConfirmation.php'; ?>
+
 <!DOCTYPE html>
 
 
@@ -160,33 +159,22 @@
         <div id="contact" class="row contact mt-4 justify-content-center">
           <div class="col-12 col-lg-8">
             <h2 class="title">Contact</h2>
-            <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" class="formulary" method="post">
+            <form action="" class="formulary" method="post">
               <div class="row form-group">
                 <div class="col-12 col-md-6 ">
-                  <input class="shadow-sm" type="text" name="name" placeholder="Nombre" value="<?php if(!$correct && isset($name)) echo $name;?>">
+                  <input class="shadow-sm" type="text" name="name" placeholder="Nombre" value="">
                 </div>
                 <div class="col-12 col-md-6">
-                  <input class="shadow-sm" type="email" name="email" placeholder="Correo electrónico" value="<?php if(!$correct && isset($email)) echo $email; ?>">
+                  <input class="shadow-sm" type="email" name="email" placeholder="Correo electrónico" value="">
                 </div>
                 <div class="col-12">
-                  <textarea class="shadow-sm" name="message" placeholder="Mensaje"><?php if(!$correct && isset($message)) echo $message; ?></textarea>
+                  <textarea class="shadow-sm" name="message" placeholder="Mensaje"></textarea>
                 </div>
               </div>
 
               <!-- PHP start -->
 
-              <?php
-               if(!empty($error)):
-                  ?>
-                <div class="error">
-                  <?php echo $error; ?>
-                </div>
-              <?php elseif($correct): ?>
-                <div class="success">
-                  <p>El mensaje fue enviado con exito.</p>
-                </div>
-              <?php endif; ?>
-
+           
 
 
               <!-- PHP end -->
